@@ -7,11 +7,11 @@ While texture mapping is a nice way of simulating surface textures without addit
 
 ## Getting Started
 
-Download [CS370\_Lab17.zip](src/CS370_Lab17.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab17.zip](src/CS370_Lab17.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab17.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab17**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab17** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab17** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab17" "CS370_Lab17/bin")
@@ -21,11 +21,11 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab17\_Solution.zip](sol/CS370_Lab17_Solution.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab17\_Solution.zip](sol/CS370_Lab17_Solution.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab17\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab17\_Solution**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab17\_Solution** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab17\_Solution** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab17_Solution" "CS370_Lab17_Solution/bin")

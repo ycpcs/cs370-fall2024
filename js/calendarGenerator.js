@@ -213,13 +213,13 @@ function getLabString(lab, assignOnDate) {
 function getFileString(file) {
     if (!file) { return "n/a"; }
     file = file + ".zip";
-    return linkify(file, "src/"+file);
+    return linkify(file, "labs/src/"+file);
 }
 
 function getFileSolutionString(file) {
     if (!file) { return "n/a"; }
     file = file + "_Solution.zip";
-    return linkify(file, "sol/"+file);
+    return linkify(file, "labs/sol/"+file);
 }
 
 

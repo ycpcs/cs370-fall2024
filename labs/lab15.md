@@ -7,11 +7,11 @@ The basic graphics pipeline does not maintain any global information (except dep
 
 ## Getting Started
 
-Download [CS370\_Lab15.zip](src/CS370_Lab15.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab15.zip](src/CS370_Lab15.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab15.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab15**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab15** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab15** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab15" "CS370_Lab15/bin")
@@ -21,11 +21,11 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab15\_Solution.zip](sol/CS370_Lab15_Solution.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab15\_Solution.zip](sol/CS370_Lab15_Solution.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab15\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab15\_Solution**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab15\_Solution** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab15\_Solution** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab15_Solution" "CS370_Lab15_Solution/bin")
@@ -156,7 +156,7 @@ It is possible to repeat this effect with multiple lights by having separate dep
 
 [CS370\_Lab15\_MultiLight\_Solution.zip](sol/CS370_Lab15_MultiLight_Solution.zip)
 
-You will need to add the following line to your **CMakeLists.txt** file in the **CS370\_Fa23** directory (**not** the one in the **CS370\_Lab15\_MultiLight\_Solution** subdirectory).
+You will need to add the following line to your **CMakeLists.txt** file in the **CS370\_Fa24** directory (**not** the one in the **CS370\_Lab15\_MultiLight\_Solution** subdirectory).
 
 ```cpp
 	add_subdirectory("CS370_Lab15_MultiLight_Solution" "CS370_Lab15_MultiLight_Solution/bin")

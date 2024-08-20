@@ -9,11 +9,11 @@ The image is represented as a texture map which has normalized extents (0,0) in 
 
 ## Getting Started
 
-Download [CS370\_Lab13.zip](src/CS370_Lab13.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab13.zip](src/CS370_Lab13.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab13.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab13**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab13" "CS370_Lab13/bin")
@@ -23,11 +23,11 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab13\_Solution.zip](sol/CS370_Lab13_Solution.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab13\_Solution.zip](sol/CS370_Lab13_Solution.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab13\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab13\_Solution**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13\_Solution** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13\_Solution** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab13_Solution" "CS370_Lab13_Solution/bin")

@@ -7,11 +7,11 @@ In the last lab we built some simple geometry and rendered it using a vertex buf
 
 ## Getting Started
 
-Download [CS370\_Lab02.zip](src/CS370_Lab02.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab02.zip](src/CS370_Lab02.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab02.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab02**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab02** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab02** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab02" "CS370_Lab02/bin")
@@ -21,11 +21,11 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab02\_Solution.zip](sol/CS370_Lab02_Solution.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab02\_Solution.zip](sol/CS370_Lab02_Solution.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab02\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab02\_Solution**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab02\_Solution** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab02\_Solution** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab02_Solution" "CS370_Lab02_Solution/bin")

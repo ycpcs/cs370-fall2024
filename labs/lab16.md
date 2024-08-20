@@ -7,11 +7,11 @@ Often times we wish to have *reflective* surfaces, i.e. mirrors, within a scene.
 
 ## Getting Started
 
-Download [CS370\_Lab16.zip](src/CS370_Lab16.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab16.zip](src/CS370_Lab16.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab16.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab16**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab16** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab16** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab16" "CS370_Lab16/bin")
@@ -21,11 +21,11 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab16\_Solution.zip](sol/CS370_Lab16_Solution.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab16\_Solution.zip](sol/CS370_Lab16_Solution.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab16\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab16\_Solution**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab16\_Solution** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab16\_Solution** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab16_Solution" "CS370_Lab16_Solution/bin")
@@ -113,7 +113,7 @@ We can also incorporate shadows into the scene by first rendering the scene from
 
 [CS370\_Lab16\_Shadow\_Solution.zip](sol/CS370_Lab16_Shadow_Solution.zip)
 
-You will need to add the following line to your **CMakeLists.txt** file in the **CS370\_Fa23** directory (**not** the one in the **CS370\_Lab16\_Shadow\_Solution** subdirectory).
+You will need to add the following line to your **CMakeLists.txt** file in the **CS370\_Fa24** directory (**not** the one in the **CS370\_Lab16\_Shadow\_Solution** subdirectory).
 
 ```cpp
 	add_subdirectory("CS370_Lab16_Shadow_Solution" "CS370_Lab16_Shadow_Solution/bin")

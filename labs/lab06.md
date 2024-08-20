@@ -15,11 +15,11 @@ We also will start rendering scenes with multiple objects. Rather than having to
 
 ## Getting Started
 
-Download [CS370\_Lab06.zip](src/CS370_Lab06.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab06.zip](src/CS370_Lab06.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab06.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab06**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab06** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab06** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab06" "CS370_Lab06/bin")
@@ -29,11 +29,11 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab06\_Solution.zip](sol/CS370_Lab06_Solution.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Lab06\_Solution.zip](sol/CS370_Lab06_Solution.zip), saving it into the **CS370\_Fa24** directory.
 
 Double-click on **CS370\_Lab06\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab06\_Solution**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab06\_Solution** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab06\_Solution** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab06_Solution" "CS370_Lab06_Solution/bin")
