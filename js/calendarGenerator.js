@@ -213,13 +213,13 @@ function getLabString(lab, assignOnDate) {
 function getFileString(file) {
     if (!file) { return "n/a"; }
     file = file + ".zip";
-    return linkify(file, "labs/src/"+file);
+    return linkify(file, "src/"+file);
 }
 
 function getFileSolutionString(file) {
     if (!file) { return "n/a"; }
     file = file + "_Solution.zip";
-    return linkify(file, "labs/sol/"+file);
+    return linkify(file, "sol/"+file);
 }
 
 
@@ -277,7 +277,7 @@ function printCalendar(opts) {
         document.write("<td>" + getDateString(calendar[i].date) + "</td>");
         document.write("<td>" + getTopicString(calendar[i].topic) + "</td>");
         document.write("<td>" + getReadingString(calendar[i].reading) + "</td>");
-        if (!opts.omitLabs) { document.write("<td>" + getFileString(calendar[i].file) + "</td>"); }
+        if (!opts.omitLabs) { document.write("<td>" + "labs/" + getFileString(calendar[i].file) + "</td>"); }
         document.write("<td>" + getAssignmentString(calendar[i].assign, calendar[i].date) + "</td>");
         document.write("</tr>");
     }
