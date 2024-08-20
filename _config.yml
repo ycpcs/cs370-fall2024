@@ -1,0 +1,4 @@
+coursename: "CS 370"
+baseurl: "/cs370-fall2024"
+markdown: kramdown
+highlighter: rouge
