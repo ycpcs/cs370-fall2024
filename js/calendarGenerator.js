@@ -147,6 +147,28 @@ function getTopicString(topic) {
     return str;
 }
 
+function getScheduleTopicString(topic) {
+    var str = "";
+    if (topic instanceof Topic) {
+        str = linkify(topic.title, "labs/"+topic.link);
+    } else if (topic instanceof DoubleTopic) {
+        str = linkify(topic.title1, "labs/"+topic.link1);
+        str += "<br>";
+        str += linkify(topic.title2, "labs/"+topic.link2);
+    } else if (topic instanceof TripleTopic) {
+        str = linkify(topic.title1, "labs/"+topic.link1);
+        str += "<br>";
+        str += linkify(topic.title2, "labs/"+topic.link2);
+        str += "<br>";
+        str += linkify(topic.title3, "labs/"+topic.link3);
+    } else if (topic instanceof VacationDays) {
+        str = "<strong>NO CLASS - " + topic.description + "</strong>";
+    } else if (topic instanceof FinalExamDay) {
+        str = "<strong>FINAL EXAM for Section " + topic.section + " @ " + getStandardTimeString(topic.date) + "</strong>";
+    }
+    return str;
+}
+
 
 
 function getReadingString(reading) {
@@ -281,7 +303,7 @@ function printCalendar(opts) {
 */
         document.write("<tr>");
         document.write("<td>" + getDateString(calendar[i].date) + "</td>");
-        document.write("<td>" + getTopicString(calendar[i].topic) + "</td>");
+        document.write("<td>" + getScheduleTopicString(calendar[i].topic) + "</td>");
         document.write("<td>" + getReadingString(calendar[i].reading) + "</td>");
         if (!opts.omitLabs) { document.write("<td>" + getScheduleFileString(calendar[i].file) + "</td>"); }
         document.write("<td>" + getAssignmentString(calendar[i].assign, calendar[i].date) + "</td>");
