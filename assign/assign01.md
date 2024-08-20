@@ -3,9 +3,9 @@ layout: default
 title: "Assignment 1: Don Quixote"
 ---
 
-**Written Questions Due Thurs, Sept 7th by 8:00 AM** (in class) Submit a **graded** pdf to Canvas by Monday, Sept 11th.
+**Written Questions Due Thurs, Sept 12th by 12:30 PM** (in class) Submit a **graded** pdf to Canvas by Saturday, Sept 14th.
 
-**Program Due: Monday, Sept 11th by 11:59 PM** Late assignments will be penalized 20 points per day.
+**Program Due: Monday, Sept 16th by 11:59 PM** Late assignments will be penalized 20 points per day.
 
 ## Written Questions
 
@@ -34,14 +34,14 @@ title: "Assignment 1: Don Quixote"
 
 ### Getting Started
 
-Download [CS370\_Assign01\_Fa23.zip](src/CS370_Assign01_Fa23.zip), saving it into the **CS370\_Fa23** directory.
+Download [CS370\_Assign01\_Fa24.zip](src/CS370_Assign01_Fa24.zip), saving it into the **CS370\_Fa24** directory.
 
-Double-click on **CS370\_Assign01\_Fa23.zip** and extract the contents of the archive into a subdirectory called **CS370\_Assign01\_Fa23**
+Double-click on **CS370\_Assign01\_Fa24.zip** and extract the contents of the archive into a subdirectory called **CS370\_Assign01\_Fa24**
 
-Open CLion, select **CS370\_Fa23** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Assign01\_Fa23** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Assign01\_Fa24** subdirectory). Uncomment the line
 
 ```cpp
-	add_subdirectory("CS370_Assign01_Fa23" "CS370_Assign01_Fa23/bin")
+	add_subdirectory("CS370_Assign01_Fa24" "CS370_Assign01_Fa24/bin")
 ```
 
 Finally, select **Reload changes** which should build the project and add **DonQuixote** to the dropdown menu at the top of the IDE window.
@@ -106,8 +106,8 @@ To quit the program simply close the window.
 When you are done, submit the assignment to the Marmoset server using the Terminal window in CLion (click **Terminal** at the bottom left of the IDE). Navigate to the directory using
 
 <pre>
-% <b>cd CS370_Assign01_Fa23</b>
-CS370_Fa23/CS370_Assign01_Fa23 % <b>make submit</b>
+% <b>cd CS370_Assign01_Fa24</b>
+CS370_Fa24/CS370_Assign01_Fa24 % <b>make submit</b>
 </pre>
 
 Enter your [Marmoset](https://cs.ycp.edu/marmoset) username and password, if successful you should see
@@ -121,7 +121,7 @@ check that the files you submitted are correct.
 
 Details:
 
-         Semester:   Fall 2023
+         Semester:   Fall 2024
          Course:     CS 370
          Assignment: assign01
 
