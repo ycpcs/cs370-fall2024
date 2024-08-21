@@ -39,7 +39,7 @@ In the **Settings** dialog, select the **Tools->Terminal** option, then replace 
 
 > <img src="img/CLionTerminal.png" alt="CLion Tools Settings Window" height="500"/>
 
-If everything is configured correctly, when you select the **Terminal** tab in the lower left corner of CLion it should open up a terminal pane that displays a Cygwin prompt in the **CS370_Fa23** project directory.
+If everything is configured correctly, when you select the **Terminal** tab in the lower left corner of CLion it should open up a terminal pane that displays a Cygwin prompt in the **CS370_Fa24** project directory.
 
 > <img src="img/CLionCygwin.png" alt="CLion Cygwin Window" height="400"/>
 
