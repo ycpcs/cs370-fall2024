@@ -9,7 +9,7 @@ All written portions should be submitted to Canvas *after self-grading*. All pro
 
 > Assignment | File | Written Due | Program Due |
 > ---------- | ---- | ----------- | ----------- |
-> [Assignment 1: Don Quixote](assign01.html)       | [CS370\_Assign01\_Fa24.zip](src/CS370_Assign01_Fa24.zip) | **Sept 12**  | **Sept 16** |
+> [Assignment 1: Don Quixote](assign01.html)       | [CS370\_Assign01\_Fa24.zip](src/CS370_Assign01_Fa24.zip) | **Sept 17**  | **Sept 18** |
 
 
 

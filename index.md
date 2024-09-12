@@ -20,8 +20,8 @@ Welcome to the website for CS 370, Computer Graphics Programming I, at York Coll
 
 ## News
 * **Aug 27** - Welcome back!
-* **Sept 12** - [Assignment 1 Written](assign/assign01.html) Due - upload *self-graded* .pdf to Canvas by **Sept 14**.
-* **Sept 16** - [Assignment 1 Program](assign/assign01.html) Due - upload to [Marmoset](https://cs.ycp.edu/marmoset).
+* **Sept 17** - [Assignment 1 Written](assign/assign01.html) Due - upload *self-graded* .pdf to Canvas by **Sept 19**.
+* **Sept 18** - [Assignment 1 Program](assign/assign01.html) Due - upload to [Marmoset](https://cs.ycp.edu/marmoset).
 
 
 
