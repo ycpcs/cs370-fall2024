@@ -10,6 +10,7 @@ All written portions should be submitted to Canvas *after self-grading*. All pro
 > Assignment | File | Written Due | Program Due |
 > ---------- | ---- | ----------- | ----------- |
 > [Assignment 1: Don Quixote](assign01.html)       | [CS370\_Assign01\_Fa24.zip](src/CS370_Assign01_Fa24.zip) | **Sept 17**  | **Sept 18** |
+> [Assignment 2: Rollin Train](assign02.html)      | [CS370\_Assign02\_Fa24.zip](src/CS370_Assign02_Fa24.zip) | **Sept 26** | **Milestone 1: Sept 23** <br /> **Milestone 2: Sept 30** | 
 
 
 
