@@ -18,7 +18,7 @@ Download and install [Visual Studio 2022 (or newer)](https://visualstudio.micros
 
 We will be using [Cygwin](http://cygwin.com/) as our terminal program within CLion for all assignment and exam submissions to Marmoset. 
 
-Install [Cygwin](http://cygwin.com/) and the various packages as described in the [CS101 Cygwin installation guide](https://ycpcs.github.io/cs101-spring2021/installCygwin.html).
+Install [Cygwin](http://cygwin.com/) and the various packages as described in the [CS101 Cygwin installation guide](https://ycpcs.github.io/cs101-fall2024/installCygwin.html).
 
 ### CLion
 
