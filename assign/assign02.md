@@ -70,7 +70,7 @@ Write a program that draws a 3D "train" scene using OpenGL. A sample executable 
 >
 > Use instance transformations to build up more complex objects, e.g. tracks, by repeatedly rendering the template models with different transformations. Suggested symbolic constants for scale factors are provided in **RollinTrain.h**. The constants are interrelated as much as possible so that objects that are referenced off each other can be adjusted with a single value. **Develop the scene incrementally!** **Note:** You may want to make additional functions to draw the different parts of the scene, e.g. tracks, train, blocks, wheels, etc.
 >
-> An initial *orthographic* view from an *isometric* viewpoint, i.e. the camera positioned along a line going through (1,1,1) but far enough back to see the entire scene is provided. You will want to add spherical coordinate angles and adjust the camera parameters accordingly.
+> An initial *orthographic* view from an *isometric* viewpoint, i.e. the camera positioned along a line going through (1,1,1) but far enough back to see the entire scene is provided. Consider changing the elevation angle to 90.0 and the azimuth angle to 0 (rear view) or 90 (side view) to help align things. Eventually, add spherical coordinate angles and adjust the camera parameters accordingly using WASD on the keyboard.
 >
 > For the *perspective* projection, consider where the camera should be located and where it should be looking at. **Note:** The location of this camera should *move* with the train.
 >
