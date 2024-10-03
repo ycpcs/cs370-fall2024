@@ -15,14 +15,14 @@ title: "Final Project: Think Inside the Box!"
 
 ## Getting Started
 
-Download [CS370\_Project\_Fa24.zip](src/CS370_Project_Fa24.zip), saving it into the **CS370_Fa24** directory.
+Download [CS370\_Project.zip](src/CS370_Project.zip), saving it into the **CS370_Fa24** directory.
 
-Double-click on **CS370\_Project\_Fa24.zip** and extract the contents of the archive into a subdirectory called **CS370\_Project\_Fa24**
+Double-click on **CS370\_Project.zip** and extract the contents of the archive into a subdirectory called **CS370\_Project**
 
-Open CLion, select **CS370_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Project\_Fa24** subdirectory). Add the line
+Open CLion, select **CS370_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Project** subdirectory). Add the line
 
 ```cpp
-	add_subdirectory("CS370_Project_Fa24" "CS370_Project_Fa24/bin")
+	add_subdirectory("CS370_Project" "CS370_Project/bin")
 ```
 
 Finally, select **Reload changes** which should build the project and add **house** to the dropdown menu at the top of the IDE window.
