@@ -127,7 +127,9 @@ function linkify(title, link) {
 
 function getTopicString(topic) {
     var str = "";
-    if (topic instanceof Topic) {
+    if (topic instanceof TopicNoLab) {
+        str = "<strong>" + topic.title + "</strong>";
+    } else if (topic instanceof Topic) {
         str = linkify(topic.title, topic.link);
     } else if (topic instanceof DoubleTopic) {
         str = linkify(topic.title1, topic.link1);
@@ -149,7 +151,9 @@ function getTopicString(topic) {
 
 function getScheduleTopicString(topic) {
     var str = "";
-    if (topic instanceof Topic) {
+    if (topic instanceof TopicNoLab) {
+        str = "<strong>" + topic.title + "</strong>";
+    } else if (topic instanceof Topic) {
         str = linkify(topic.title, "labs/"+topic.link);
     } else if (topic instanceof DoubleTopic) {
         str = linkify(topic.title1, "labs/"+topic.link1);

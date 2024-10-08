@@ -47,12 +47,10 @@ courseInfo.classPeriods = [
 		file: "CS370_Lab08"
 	},
 	{
-		topic: new Topic("Exam Review", ""),
-		reading: "",
-		file: ""
+		topic: new TopicNoLab("Exam Review")
 	},
 	{
-		topic: new Topic("** Exam 1", "")
+		topic: new TopicNoLab("Exam 1")
 	},
 	{
 		topic: new Topic("Lab 9: Basic Gouraud Lighting", "lab09.html"),
@@ -80,12 +78,10 @@ courseInfo.classPeriods = [
 		file: "CS370_Lab13"
 	},
 	{
-		topic: new Topic("Exam Review", ""),
-		reading: "",
-		file: ""
+		topic: new TopicNoLab("Exam Review")
 	},
 	{
-		topic: new Topic("** Exam 2", "")
+		topic: new TopicNoLab("Exam 2")
 	},
 	{
 		topic: new Topic("Lab 14: Scene Graphs", "lab14.html"),
@@ -113,12 +109,10 @@ courseInfo.classPeriods = [
 		file: "CS370_Lab18"
 	},
 	{
-		topic: new Topic("Exam Review", ""),
-		reading: "",
-		file: ""
+		topic: new TopicNoLab("Exam Review")
 	},
 	{
-		topic: new Topic("** Exam 3", "")
+		topic: new TopicNoLab("Exam 3")
 	},
 	{
 		topic: new Topic("Final Project Workday", ""),

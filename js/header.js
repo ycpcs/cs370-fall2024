@@ -12,6 +12,10 @@ var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oc
 // But sometimes you might need 2 or even 3 topics to
 // link to multiple different materials.
 ////////////////////////////////////////////////////
+function TopicNoLab(title) {
+    this.title = title;
+}
+
 function Topic(title, link) {
     this.title = title;
     this.link = link;
