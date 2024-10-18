@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 4: Walking Man"
 ---
 
-**Written Questions Due: Tuesday, Nov 19th by 8:00 AM** (in class). Submit a **graded** pdf to Canvas by Thursday, Nov 21st.
+**Written Questions Due: Tuesday, Nov 19th by 12:30 PM** (in class). Submit a **graded** pdf to Canvas by Thursday, Nov 21st.
 
 **Program Due:**
 
