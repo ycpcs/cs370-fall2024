@@ -110,7 +110,7 @@ Write a program that draws a 3D scene of a walking player with articulated arms 
 -   Player head animation (arbitrary rotation): 4 points
 -   Upper limb material: 2 points
 
-> <img src="images/assign04/WalkingMan_MS1_.png" alt="Walking Man MS1 Window" height="500"/>
+> <img src="images/assign04/WalkingMan_MS1.png" alt="Walking Man MS1 Window" height="500"/>
 
 **Milestone 2** - 70 points
 
